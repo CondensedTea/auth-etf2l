@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+}
+
+#app {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#info-message {
+    display: flex;
+    justify-content: center;
+}
+
+#steam-state, #discord-state {
+    width: 20%;
+    margin: 0 5px;
+    text-align: center;
+}
