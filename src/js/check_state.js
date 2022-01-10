@@ -24,20 +24,16 @@ window.onload = async function updateStates() {
 }
 
 document.getElementById("discord-button").onclick = async function authorise_discord() {
-    console.log(sessionStorage.session)
     if (sessionStorage.session === undefined) {
         sessionStorage.session = await register()
     }
-    console.log(sessionStorage.session)
     window.location.replace(`/auth/discord/?state=${sessionStorage.session}`);
 }
 
 document.getElementById("steam-button").onclick = async function authorise_steam() {
-    console.log(sessionStorage.session)
     if (sessionStorage.session === undefined) {
         sessionStorage.session = await register()
     }
-    console.log(sessionStorage.session)
     window.location.replace(`/auth/steam/?state=${sessionStorage.session}`);
 }
 
@@ -46,7 +42,6 @@ async function register() {
         method: "post"
     });
     let data = await response.json();
-    console.log(data)
     return data.state
 }
 
@@ -56,6 +51,5 @@ async function checkEtf2lProfile(steam_id) {
         return "unknown"
     }
     let data = await resp.json()
-    console.log(data)
     return data.name
 }
