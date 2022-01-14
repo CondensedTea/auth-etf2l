@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
-	"ratiod/pkg/store"
+	"auth-etf2l/pkg/store"
 
 	"github.com/gofiber/fiber/v2"
 )

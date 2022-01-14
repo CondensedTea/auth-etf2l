@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/rand"
 	"net/http"
-	"ratiod/pkg/store"
+	"auth-etf2l/pkg/store"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/ravener/discord-oauth2"

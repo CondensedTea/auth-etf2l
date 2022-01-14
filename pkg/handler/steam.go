@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 	"net/url"
-	"ratiod/pkg/store"
+	"auth-etf2l/pkg/store"
 	"regexp"
 
 	"github.com/gofiber/fiber/v2"

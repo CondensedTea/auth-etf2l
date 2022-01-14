@@ -3,10 +3,10 @@ package main
 import (
 	"log"
 	"math/rand"
-	"ratiod/pkg/config"
-	"ratiod/pkg/discord"
-	"ratiod/pkg/handler"
-	"ratiod/pkg/store"
+	"auth-etf2l/pkg/config"
+	"auth-etf2l/pkg/discord"
+	"auth-etf2l/pkg/handler"
+	"auth-etf2l/pkg/store"
 	"time"
 
 	"github.com/gofiber/fiber/v2/middleware/logger"

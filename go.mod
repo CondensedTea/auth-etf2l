@@ -1,4 +1,4 @@
-module ratiod
+module auth-etf2l
 
 go 1.16
 
